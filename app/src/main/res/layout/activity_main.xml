@@ -12,23 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-        android:text="IP address" />
+        android:hint="IP address"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/portnum_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number"
-        android:text="Port number" />
-
-    <Button
-        android:id="@+id/connect_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ToDo"
-        android:text="CONNECT" />
+        android:hint="Port number"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/send_btn"
