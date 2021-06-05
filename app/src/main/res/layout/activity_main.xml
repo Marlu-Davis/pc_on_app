@@ -22,13 +22,23 @@
         android:ems="10"
         android:hint="Port number"
         android:inputType="number" />
-
+    
     <Button
-        android:id="@+id/send_btn"
+        android:id="@+id/connect_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="ToDo"
-        android:text="ON" />
+        android:text="connect" />
 
+    <ToggleButton
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="60dp"
+        android:background="@drawable/color_change"
+        android:checked="false"
+        android:text=""
+        android:textOn = ""
+        android:textOff = ""
+        android:onClick = "onToggleClicked"/>
 
 </LinearLayout>
