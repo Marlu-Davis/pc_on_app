@@ -42,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+    
+    public void onToggleClicked(View view) {
+        boolean on = ((ToggleButton) view).isChecked();
+
+        if (on) {
+            Toast.makeText(getApplicationContext(), "ON", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(getApplicationContext(), "OFF", Toast.LENGTH_LONG).show();
+        }
+    }
 
     public class SendData extends Thread {
         String ip;
